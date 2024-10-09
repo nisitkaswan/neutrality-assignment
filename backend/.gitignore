@@ -1,0 +1,39 @@
+# Backend .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled Python files
+*.pyc
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Django stuff
+*.pot
+*.mo
+*.log
+local_settings.py
+
+# Database
+*.sqlite3

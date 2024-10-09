@@ -1,0 +1,40 @@
+# Root .gitignore
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Docker
+docker-compose.override.yml
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore all .env files except .env.example
+*.env
+!.env.example
+
+# Postgres data
+postgres_data/
