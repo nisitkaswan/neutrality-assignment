@@ -1,6 +1,6 @@
 # Random Users List
 
-This project consists of a full-stack application with a PostgreSQL database, a Python backend, and a frontend (likely React or Vue.js).
+This project consists of a full-stack application with a PostgreSQL database, a Python backend, and a frontend using react (vite+ts)
 
 ## Prerequisites
 
@@ -88,5 +88,3 @@ If you encounter any issues, try the following:
    ```
    docker-compose ps
    ```
-
-For more detailed information, refer to the documentation in the backend and frontend directories.
